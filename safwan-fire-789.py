@@ -209,7 +209,7 @@ def main():
         sys.stdout.flush()
     os.getuid
     os.system("clear")
-    print(PSYCHO)
+    print(SAFWAN)
     print('\033[1;97m[\033[1;92m1\033[1;97m]\033[1;92m START UID CLONING ')
     print('\033[1;97m[\033[1;92m2\033[1;97m]\033[1;92m START GMAIL CLONING')
     print('\033[1;97m[\033[1;92m3\033[1;97m]\033[1;92m FOLLOW GITHUB ACCOUNT')
