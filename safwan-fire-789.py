@@ -209,7 +209,7 @@ def main():
         sys.stdout.flush()
     os.getuid
     os.system("clear")
-    print
+    
     print('\033[1;97m[\033[1;92m1\033[1;97m]\033[1;92m START UID CLONING ')
     print('\033[1;97m[\033[1;92m2\033[1;97m]\033[1;92m START GMAIL CLONING')
     print('\033[1;97m[\033[1;92m3\033[1;97m]\033[1;92m FOLLOW GITHUB ACCOUNT')
@@ -616,7 +616,7 @@ def sex(uid,pwx,tl):
                     coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                     cid=coki[24:39]
                     #print('\r\x1b[38;5;208m[PICCHI-CP] ' +uid+ ' | ' +ps+           '  \33[0;97m')
-                    open('/sdcard/PICCHI-CP.txt', 'a').write(cid+' | '+ps+'\n')
+                    open('/sdcard/SAFWAN-CP.txt', 'a').write(cid+' | '+ps+'\n')
                     cp.append(uid)
                     break
             else:
